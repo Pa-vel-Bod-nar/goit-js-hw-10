@@ -17,3 +17,65 @@
     max-width: 1200px;
   }
 }
+
+#datetime-picker{
+  width: 250px;
+  padding: 6px 8px;
+  margin-left: 8px;
+}
+
+.timer-box{
+  margin-top: 50px;
+}
+
+
+.timer{
+  display: flex;
+  margin-left: 0;
+  padding-left: 0;
+  gap: 20px;
+}
+
+.timmer-setter{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.field{
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+    width: 50px; 
+    padding: 8px;
+    text-align: center; 
+  }
+  .value{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+  }
+
+
+button {
+  padding: 6px 12px;
+  font-size: 16px;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.label{
+  font-size: 15px;
+  margin-left: auto;
+    margin-right: auto;
+}
+
+
+

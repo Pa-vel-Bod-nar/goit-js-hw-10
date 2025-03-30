@@ -30,3 +30,68 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+
+.timer-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 12px;
+  
+}
+
+
+
+
+input[type="number"] {
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 300px;
+}
+
+
+.legend{
+  margin-left: 10px;
+}
+
+.fieldset{
+  width: 300px;
+  border-radius: 8px;
+  margin: 0;
+  padding-left: 8px;
+  padding-right: auto;
+  
+}
+
+.button-submit{
+  width: 324px;
+}
+
+.fieldset label:first-of-type{
+  padding: 40px;
+}
+
+
+.flatpickr-calendar {
+  z-index: 99999 !important;
+}
+
+.timer-box,
+.timmer-setter,
+.container,
+main {
+  overflow: visible !important;
+  position: relative !important;
+  z-index: 0 !important;
+}
+
